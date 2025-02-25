@@ -1,0 +1,22 @@
+.landing-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.locations-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.location-card {
+  padding: 20px;
+  border: 2px solid #007bff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.location-card:hover {
+  background-color: #007bff;
+  color: white;
+}
