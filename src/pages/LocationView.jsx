@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import EmployeeTable from "../components/EmployeeTable";
 import SearchFilter from "../components/SearchFilter";
 import employeesData from "../data/employees.json";
+import "./LocationView.css"; // Ensure this file exists
 
 const LocationView = () => {
   const { location } = useParams();

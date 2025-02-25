@@ -1,21 +1,22 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
-import "./App.css";
-import LandingPage from "./components/LandingPage";
+import LandingPage from "./pages/LandingPage";
 import LocationView from "./pages/LocationView";
-import ProjectView from "./pages/ProjectView";
+import ProjectCustomerView from "./pages/ProjectCustomerView";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/location/:location" element={<LocationView />} />
-        <Route path="/projects" element={<ProjectView />} />
-      </Routes>
+      <div className="app-container">
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/location/:location" element={<LocationView />} />
+          <Route path="/projects" element={<ProjectCustomerView />} />
+        </Routes>
+      </div>
     </Router>
   );
-}
+};
 
 export default App;
