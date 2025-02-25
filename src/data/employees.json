@@ -1,0 +1,102 @@
+[
+	{
+		"id": 1,
+		"name": "Alice Johnson",
+		"department": "Engineering",
+		"role": "Software Engineer",
+		"location": "Pune",
+		"status": "Office",
+		"project": "Project Alpha",
+		"customer": "Client X"
+	},
+	{
+		"id": 2,
+		"name": "Bob Williams",
+		"department": "Engineering",
+		"role": "Frontend Developer",
+		"location": "Pune",
+		"status": "Home",
+		"project": "Project Beta",
+		"customer": "Client Y"
+	},
+	{
+		"id": 3,
+		"name": "Charlie Brown",
+		"department": "HR",
+		"role": "HR Manager",
+		"location": "Loni",
+		"status": "Office",
+		"project": "Recruitment",
+		"customer": "Internal"
+	},
+	{
+		"id": 4,
+		"name": "David Smith",
+		"department": "Engineering",
+		"role": "Backend Developer",
+		"location": "Hyderabad",
+		"status": "Office",
+		"project": "Project Gamma",
+		"customer": "Client Z"
+	},
+	{
+		"id": 5,
+		"name": "Emma Wilson",
+		"department": "Sales",
+		"role": "Sales Manager",
+		"location": "Bangalore",
+		"status": "Home",
+		"project": "Marketing Campaign",
+		"customer": "Client A"
+	},
+	{
+		"id": 6,
+		"name": "Franklin Lee",
+		"department": "Finance",
+		"role": "Finance Analyst",
+		"location": "Pune",
+		"status": "Office",
+		"project": "Budgeting",
+		"customer": "Internal"
+	},
+	{
+		"id": 7,
+		"name": "Grace Adams",
+		"department": "Engineering",
+		"role": "Full Stack Developer",
+		"location": "Hyderabad",
+		"status": "Home",
+		"project": "Project Delta",
+		"customer": "Client X"
+	},
+	{
+		"id": 8,
+		"name": "Hannah Scott",
+		"department": "Support",
+		"role": "Support Engineer",
+		"location": "Loni",
+		"status": "Office",
+		"project": "Customer Support",
+		"customer": "Client B"
+	},
+	{
+		"id": 9,
+		"name": "Isaac Martin",
+		"department": "Engineering",
+		"role": "DevOps Engineer",
+		"location": "Bangalore",
+		"status": "Office",
+		"project": "Cloud Migration",
+		"customer": "Client C"
+	},
+	{
+		"id": 10,
+		"name": "Jack Carter",
+		"department": "IT",
+		"role": "System Administrator",
+		"location": "Pune",
+		"status": "Home",
+		"project": "Infrastructure Upgrade",
+		"customer": "Internal"
+	}
+]
